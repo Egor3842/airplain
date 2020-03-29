@@ -1,0 +1,103 @@
+.container{
+    position: relative;
+    height: 800px;
+    width: 800px;
+    margin: 0 auto;
+    top:20px;
+    
+}
+.PhotoInfo{
+    width: 900px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: 'M E';
+    
+}
+.MainInformation{
+    position: relative;
+    height: 400px;
+    width: 50%;
+    grid-area: M;
+
+
+}
+.header{
+    font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 49px;
+color: #37373F;
+}
+.about{
+    margin-top: 10px;
+    font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 20px;
+color: #37373F;
+font-family: Montserrat;
+}
+.description{
+    
+    font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 20px;
+color: #37373F;
+font-family: Montserrat;
+
+
+
+}
+.frame{
+    height: 30px;
+    width: 50px;
+    text-align: center;
+}
+
+
+.example{
+    position: absolute;
+    left:23em;
+    top:1em;
+    grid-area: E;
+}
+.example img{
+    height: 285px;
+}
+.title{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 29px;
+
+color: #37373F;
+}
+.Photos {
+    position: relative;
+    top:1.5em;
+}
+.Photos img{
+    height: 118px ;
+    width: 198px;
+}
+.ShowAll{
+    position: relative;
+    top:2em;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 25px;
+text-align: center;
+color: #5286EC;
+
+}
+.line{
+    height: 1px;
+    width: 800px;
+    background-color: #C7C7C7;
+    position: relative;
+    top:3em;
+}

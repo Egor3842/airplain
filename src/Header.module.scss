@@ -1,0 +1,108 @@
+.container{
+  position: relative;
+  height:850px ;
+  width: 1518px;
+  margin: 0 auto;
+  
+}
+.Header{
+  background-image: url(img/helimain.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.MainInfo{
+  position: absolute;
+  top:31%;
+  width: 757px;
+  height: 300px;
+ left:27%;
+ 
+}
+.Text{
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 49px;
+color: #FFFFFF;
+}
+.Photo{
+  color:  #FC9B09;
+}
+.Block{
+  top:30px;
+  width: 224px;
+  height: 96px;
+  background: #FC9B09;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+position: relative;
+display: inline-flex  ;
+}
+.Block:before {
+  content: "";
+  width: 0; 
+  height: 0;
+  position: absolute; 
+  right: 40%; 
+  top: 100%;
+  border-right: 10px solid transparent;
+  border-top: 12px solid  #FC9B09;
+  border-left: 10px solid transparent;
+  }
+  .Info{
+    position: relative;
+    color: white;
+    left: 1em;
+  }
+  .Cost{
+    font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 151.16%;
+  }
+  .Money{
+    font-style: normal;
+font-weight: 800;
+font-size: 35px;
+line-height: 151.16%;
+  }
+  .Sale{
+    position: relative;
+    left:2em;
+    top:1em;
+    width: 50px; 
+height: 50px;
+border-style: solid;
+border-radius: 50%;
+color: white;
+  }
+  .img{
+    position: absolute;
+    left: 18%;
+    top:25%;
+    
+  }
+  .Button{
+    position: relative;
+    top:17%
+  }
+  .Button button {
+    width: 304px;
+    height: 68px;
+    border-style: solid;
+   color: white;
+   font-weight: 900;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+  background-image: none; 
+  background: transparent;
+  float: left;
+  background-color: transparent;
+  }
+  .Button button:hover
+ {
+  background-color: #fff;
+  color: #FC9B09;
+}
+  
