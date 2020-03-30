@@ -34,7 +34,7 @@ const Review = () => {
     
     return (
         <div className={s.container}>
-            <div>Отзывы:</div>
+            <div className={s.title}>Отзывы:</div>
                 {state.map(u=>
                 <div>
                  <table className={s.Review}>
