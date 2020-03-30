@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
  import s from  './Map.module.scss'
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+const AnyReactComponent = ({ text }) => <div className={s.Text}>{text}</div>;
  
 class SimpleMap extends Component {
   static defaultProps = {
@@ -25,7 +25,7 @@ class SimpleMap extends Component {
           <AnyReactComponent
             lat={59.955413}
             lng={30.337844}
-            text="My Marker"
+            text="Встречаемся тут!"
           />
         </GoogleMapReact>
       </div>

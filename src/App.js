@@ -5,6 +5,7 @@ import PhotoSesion from './PhotoSesion';
 import Organization from './Organization';
 import TakePhoto from './TakePhoto';
 import SimpleMap from './Map.js';
+import Review from './Review';
 
 
 const App=()=>{
@@ -15,6 +16,7 @@ const App=()=>{
     <Organization/>
     <TakePhoto/>
     <SimpleMap/>
+    <Review/>
     </div>
   )
 }
